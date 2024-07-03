@@ -1,0 +1,206 @@
+body {
+  background: linear-gradient(to right, #f9f3ee, #fdece3);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f4f1ea;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+  color: #4b3f34;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #4b3f34;
+  margin-bottom: 15px;
+}
+
+.toggle-button {
+  background-color: #b89470;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.toggle-button:hover {
+  background-color: #a57a54;
+}
+
+.form-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #4b3f34;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.jobs-list {
+  list-style: none;
+  padding: 0;
+}
+
+.job-item {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.delete-button,
+.edit-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 2%;
+}
+
+.delete-button:hover,
+.edit-button:hover {
+  background-color: #da190b;
+}
+
+.update-delete {
+  display: flex;
+  flex-direction: row;
+}
+
+.subscribersTableContainer {
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.subscribersTableContainer table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.subscribersTableContainer th,
+.subscribersTableContainer td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.subscribersTableContainer th {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+}
+
+.subscribersTableContainer tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.subscribersTableContainer tr:hover {
+  background-color: #f1f1f1;
+}
+
+.subscribersTableContainer td {
+  color: #333;
+}
+
+.subscribersTableContainer button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscribersTableContainer button:hover {
+  background-color: #ff1a1a;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+.input-group input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.input-group input:focus {
+  border-color: #4CAF50;
+}
+
+.form-footer {
+  text-align: right;
+}
+
+@media screen and (max-width:800px) {
+  .admin-container {
+    margin: 40px 20px;
+  }
+}
