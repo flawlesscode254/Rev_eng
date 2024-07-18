@@ -1,6 +1,6 @@
 import React from 'react';
 import { useInView } from "react-intersection-observer";
-import Holder from '../../assets/between.JPG';
+import Holder from '../../assets/div.image-holder.png';
 // import { Tween } from 'jquery';y
 
 const BlueContainer = () => {
@@ -36,7 +36,7 @@ const BlueContainer = () => {
           </button>
         </div>
         <div className="w-full lg:w-1/2">
-          <img src={Holder} alt="" className="w-full px-4 rounded-lg" />
+          <img src={Holder} alt="" className="w-full rounded-lg" />
         </div>
       </div>
     </div>
